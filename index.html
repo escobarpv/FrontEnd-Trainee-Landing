@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary" data-bs-theme="light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <svg width="160" height="40" viewBox="0 0 209 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M96.8549 4.00158C96.532 6.29416 98.0206 8.00317 100.34 8.00317C102.66 8.00317 104.63 6.29416 104.953 4.00158C105.276 1.70901 103.787 0 101.467 0C99.1476 0 97.1777 1.70901 96.8549 4.00158Z" fill="#1B005E"></path>
+                <path d="M96.9129 9.87892L94.9234 24.0073L101.284 23.764L103.239 9.87892H96.9129Z" fill="#1B005E"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M80.2065 31.0125C85.2241 31.0125 89.4889 28.3459 91.6214 24.3067L94.8626 24.439L94.0133 30.4704H100.34L101.153 24.6957L104.507 24.8326L102.474 39.2658H108.801L110.356 28.2198C111.405 30.0538 113.379 31.0125 115.868 31.0125C119.232 31.0125 123.182 29.2789 125.543 25.6911L127.966 25.79C128.379 28.907 131.289 31.0125 135.906 31.0125C141.262 31.0125 145.204 28.1781 145.803 23.9264C146.49 19.0495 142.004 18.2575 139.068 17.8407L138.812 17.8016C137.037 17.5315 135.682 17.3254 135.85 16.1316C135.968 15.298 136.712 14.506 138.272 14.506C139.538 14.506 140.305 15.0479 140.339 16.0066H146.496C146.892 12.2968 144.104 9.33729 138.916 9.33729C133.728 9.33729 129.985 12.2551 129.398 16.4234C128.7 21.3837 133.324 22.0923 136.133 22.5092L136.288 22.5327L136.504 22.5652L136.506 22.5655C138.224 22.8231 139.52 23.0174 139.339 24.3016C139.216 25.1769 138.489 25.8438 136.549 25.8438C134.82 25.8438 134.095 25.302 134.205 24.2182L89.4309 24.2173L91.7129 24.1301C92.3273 22.9196 92.7522 21.59 92.9515 20.1749C93.8319 13.9224 89.8382 9.33729 83.2588 9.33729C83.1568 9.33729 83.0552 9.33839 82.9538 9.34058L82.974 9.3271L63.0294 9.32712C62.7436 9.3252 62.4723 9.32519 62.2181 9.32712L63.0294 9.32712C68.1511 9.36158 77.9117 10.0099 76.656 11.0661C73.3767 12.951 71.0691 16.2313 70.5138 20.1749C69.6333 26.4274 73.627 31.0125 80.2065 31.0125ZM81.0282 25.1769C83.8962 25.1769 86.1239 23.1344 86.5407 20.1749C86.9575 17.2154 85.305 15.1729 82.437 15.1729C79.569 15.1729 77.3413 17.2154 76.9245 20.1749C76.5078 23.1344 78.1603 25.1769 81.0282 25.1769Z" fill="#1B005E"></path>
+                <path d="M121.105 20.1749C120.95 21.2812 120.541 22.2593 119.94 23.0505L126.938 22.7828C127.179 22.0476 127.363 21.2619 127.481 20.425C128.414 13.7974 124.403 9.33729 117.781 9.33729C111.413 9.33729 106.108 13.4639 105.133 20.3833L104.676 23.6343L112.007 23.3539C111.507 22.5152 111.313 21.4272 111.489 20.1749C111.906 17.2154 114.134 15.1729 117.002 15.1729C119.87 15.1729 121.522 17.2154 121.105 20.1749Z" fill="#1B005E"></path>
+                <path d="M170.456 27.306L171.642 18.8827C172.576 12.2551 176.867 9.33729 181.928 9.33729C184.88 9.33729 187.21 10.4627 188.465 12.6303C190.331 10.4627 192.936 9.33729 195.93 9.33729C200.992 9.33729 204.461 12.2551 203.528 18.8827L201.896 30.4707H195.569L197.201 18.8827C197.589 16.1316 196.374 15.1729 194.476 15.1729C192.62 15.1729 191.136 16.1316 190.748 18.8827L189.116 30.4707H182.79L184.422 18.8827C184.809 16.1316 183.595 15.1729 181.739 15.1729C179.841 15.1729 178.356 16.1316 177.969 18.8827L176.337 30.4707H172.546L172.547 30.4731H163.683C167.361 30.1011 170.187 29.0964 170.45 27.2971L170.456 27.306Z" fill="#1B005E"></path>
+                <path d="M156.959 31.0123C150.801 31.0123 147.161 27.5109 148.141 20.5498L149.249 12.6856C149.426 10.6542 147.823 10.4004 144.287 9.89141H149.642L149.644 9.8789H155.971L154.468 20.5498C154.01 23.8011 155.419 25.1766 157.781 25.1766C160.143 25.1766 161.939 23.8011 162.397 20.5498L163.9 9.8789H170.226L168.723 20.5498C167.749 27.4692 163.117 31.0123 156.959 31.0123Z" fill="#1B005E"></path>
+                <path d="M49.2173 28.0335C48.7702 27.5452 48.3842 27.0051 48.0643 26.4191L43.5474 26.1736C41.2111 29.1472 37.5411 31.0125 33.3445 31.0125C26.765 31.0125 22.7713 26.4274 23.6518 20.1749C24.5323 13.9224 29.8173 9.33729 36.3968 9.33729C42.9763 9.33729 46.97 13.9224 46.0895 20.1749C45.8882 21.6041 45.4568 22.9462 44.8325 24.1663L36.6952 24.5808C38.2796 23.7686 39.396 22.1828 39.6787 20.1749C40.0955 17.2154 38.443 15.1729 35.575 15.1729C32.7071 15.1729 30.4793 17.2154 30.0626 20.1749C29.7506 22.3903 30.5982 24.0919 32.2471 24.8074L25.1072 25.1712H57.753V25.1749C60.5456 25.1023 62.7005 23.0806 63.1097 20.1749C63.5264 17.2154 61.8739 15.1729 59.0059 15.1729C56.138 15.1729 53.9103 17.2154 53.4935 20.1749C53.2928 21.6003 53.5721 22.813 54.236 23.6872L47.1888 24.0462C46.9317 22.8583 46.8881 21.5574 47.0827 20.1749C47.9632 13.9224 53.2482 9.33729 59.8277 9.33729C66.4072 9.33729 70.4009 13.9224 69.5204 20.1749C68.6699 26.2145 63.7097 30.6984 57.4429 30.9967C58.9188 31.8258 61.0625 32.4963 62.6382 32.989C63.1639 33.1535 63.6264 33.2981 63.9797 33.4222C65.4107 33.7752 66.3251 35.093 66.1038 36.6647C65.8444 38.5067 64.1232 40 62.2594 40H52.1351C48.8257 40 46.4041 37.6461 46.2654 34.5399L33.7781 33.3309H46.3248L46.325 33.3294H57.1213C54.6527 32.3859 52.0442 30.4983 50.3671 29.074C49.949 28.7608 49.5655 28.4135 49.2187 28.035L49.2173 28.0335Z" fill="#1B005E"></path>
+                <path d="M0 3.20974L5.1678 4.03054L1.44456 30.4705H21.3095L22.19 24.218H9.15756L12.1159 3.20968L0 3.20974Z" fill="#1B005E"></path>
+                <path d="M209 7.8769C209 9.20557 207.921 10.2827 206.589 10.2827C205.258 10.2827 204.179 9.20557 204.179 7.8769C204.179 6.54822 205.258 5.47112 206.589 5.47112C207.921 5.47112 209 6.54822 209 7.8769Z" fill="#1B005E"></path>
+                </svg>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end w-100">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#Inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#Productos">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#Contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <section id="Inicio" class="container p-3">
+            <div class="row align-items-center rounded-3">
+                <div class="col-lg-7">
+                    <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Los calzados más exclusivos del mercado</h1>
+                    <p class="fs-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec eros tincidunt, posuere est non, ultrices odio. Vestibulum euismod, augue ut aliquet sodales, odio lorem convallis justo, eu lobortis eros nisi eu eros.</p>
+                    <div class="gap-2 d-sm-flex justify-content-sm-start mb-sm-3">
+                        <button type="button" class="btn btn-primary btn-md px-4 me-md-2 fw-bold">Primary</button>
+                        <button type="button" class="btn btn-outline-secondary btn-md px-4">Default</button>
+                    </div>
+                </div>
+                    <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden">
+                    <img class="rounded-lg-3" src="https://images.unsplash.com/photo-1608666634759-4376010f863d?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" width="400">
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <div class="container carousel-container p-3 mb-3">
+        <div class="row">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://images.unsplash.com/photo-1514989940723-e8e51635b782?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-left">
+                            <h3>Nike Model 01</h3>
+                            <p>Descripcion breve del producto. <br>Modelo exclusivo de nuestra tienda.</p>
+                            <button type="button" class="btn btn-primary btn-md px-4 me-md-2 fw-bold">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1579446650032-86effeeb3389?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-left">
+                            <h3>Nike Model 02</h3>
+                            <p>Descripcion breve del producto. <br>Modelo exclusivo de nuestra tienda.</p>
+                            <button type="button" class="btn btn-primary btn-md px-4 me-md-2 fw-bold">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1595341888016-a392ef81b7de?q=80&w=2358&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-left">
+                            <h3>Nike Model 03</h3>
+                            <p>Descripcion breve del producto. <br>Modelo exclusivo de nuestra tienda.</p>
+                            <button type="button" class="btn btn-primary btn-md px-4 me-md-2 fw-bold">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <section id="Productos">
+        <div class="container p-3">
+            <div class="row">
+                <h3>Productos</h3>
+                <div class="col-12 col-md-4 my-3">
+                    <div class="card" id="product-card-1">
+                        <div class="card-image-container">
+                            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxfHxzaG9lfGVufDB8MHx8fDE3MjEwNDEzNjd8MA&ixlib=rb-4.0.3&q=80&w=1080" class="card-img-top object-fit-cover" alt="Product Image">
+                        </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Red Nike</h5>
+                            <p class="card-text">Descripción corta del producto va acá.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 mb-0">$69.990</span>
+                                <div>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-half text-warning"></i>
+                                    <small class="text-muted">(4.5)</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between bg-white">
+                            <button class="btn btn-outline-primary btn-sm">Añadir al carro</button>
+                            <button class="btn btn-sm btn-favorito"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 my-3">
+                    <div class="card">
+                        <div class="card-image-container">
+                            <img src="https://images.unsplash.com/photo-1658492283686-d28b43641700?q=80&w=3280&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top object-fit-cover" alt="Product Image">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Gray Super Nike</h5>
+                            <p class="card-text">Descripción corta del producto va acá.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 mb-0">$69.990</span>
+                                <div>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-half text-warning"></i>
+                                    <small class="text-muted">(4.5)</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between bg-white">
+                            <button class="btn btn-outline-primary btn-sm">Añadir al carro</button>
+                            <button class="btn btn-sm btn-favorito"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 my-3">
+                    <div class="card">
+                        <div class="card-image-container">
+                            <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top object-fit-cover" alt="Product Image">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Green Deluxe Nike</h5>
+                            <p class="card-text">Descripción corta del producto va acá.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 mb-0">$69.990</span>
+                                <div>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-half text-warning"></i>
+                                    <small class="text-muted">(4.5)</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between bg-white">
+                            <button class="btn btn-outline-primary btn-sm">Añadir al carro</button>
+                            <button class="btn btn-sm btn-favorito"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 my-3">
+                    <div class="card">
+                        <div class="card-image-container">
+                            <img src="https://images.unsplash.com/photo-1731132198530-e4b2dc51d511?q=80&w=3732&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top object-fit-cover" alt="Product Image">
+                        </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Cool Nikes</h5>
+                            <p class="card-text">Descripción corta del producto va acá.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 mb-0">$69.990</span>
+                                <div>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-half text-warning"></i>
+                                    <small class="text-muted">(4.5)</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between bg-white">
+                            <button class="btn btn-outline-primary btn-sm">Añadir al carro</button>
+                            <button class="btn btn-sm btn-favorito"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 my-3">
+                    <div class="card">
+                        <div class="card-image-container">
+                            <img src="https://images.unsplash.com/photo-1698995475439-f6fa0734e30e?q=80&w=1412&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top object-fit-cover" alt="Product Image">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Boring White Nikes</h5>
+                            <p class="card-text">Descripción corta del producto va acá.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 mb-0">$69.990</span>
+                                <div>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-half text-warning"></i>
+                                    <small class="text-muted">(4.5)</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between bg-white">
+                            <button class="btn btn-outline-primary btn-sm">Añadir al carro</button>
+                            <button class="btn btn-sm btn-favorito"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 my-3">
+                    <div class="card">
+                        <div class="card-image-container">
+                            <img src="https://images.unsplash.com/photo-1662411198835-c5a151d2af9e?q=80&w=1365&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top object-fit-cover" alt="Product Image">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Sports Nike</h5>
+                            <p class="card-text">Descripción corta del producto va acá.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 mb-0">$69.990</span>
+                                <div>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-half text-warning"></i>
+                                    <small class="text-muted">(4.5)</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between bg-white">
+                            <button class="btn btn-outline-primary btn-sm">Añadir al carro</button>
+                            <button class="btn btn-sm btn-favorito"><i class="bi bi-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-body-tertiary text-center py-3">
+        <div class="container">
+            <p class="mb-0" style="font-size: 12px";>&copy; 2024 Pequeña Gran Empresa. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
