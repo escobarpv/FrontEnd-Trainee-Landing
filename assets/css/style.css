@@ -3,78 +3,69 @@
     margin: 0;
     padding: 0;
 }
-.carousel-caption {
-    text-align: left !important;
-    left: 5% !important;
+.background-image-header {
+    background-image: url('https://images.unsplash.com/photo-1518655048521-f130df041f66?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    color: white;
+    position: relative;
+    margin-bottom: -48px;
+    padding: 200px 0
 }
-.carousel-inner > .carousel-item > img {
-    object-fit: cover;
-    max-height: 450px;
+.gray-background {
+    background-color: #f8f9fa;
+}
+#retrato {
+    border-radius: 50%;
+}
+.badge {
+    font-size: 18px;
+    font-weight: 500 !important;
+    border-radius: 50px;
+    padding: 10px 20px;
 }
 .card-image-container {
-    display: inline-flex;
-    max-height: 220px;
+    display: flex;
+    max-height: 200px;
     overflow-y: hidden;
-    position: relative; /* contain absolute-positioned message */
+    align-items: center;
 }
-.btn-favorito i {
-    font-size: 16px;
-    display: inline-block;
-    transform-origin: center;
-    transition: transform .22s cubic-bezier(.2,.9,.3,1), color .18s ease, opacity .18s ease;
-}
+#resume ul {
+    list-style-type: none;
+    position: relative;
+    padding: 0 !important;
 
-/* Remove focus/active outline and border when clicking favorite buttons */
-.btn-favorito {
-    border: none;
-    box-shadow: none;
-    -webkit-appearance: none;
 }
-
-.btn-favorito:focus,
-.btn-favorito:focus-visible,
-.btn-favorito:active {
-    outline: none !important;
-    box-shadow: none !important;
-    border: none !important;
+.redes ul {
+    list-style-type: none;
+    margin: 15px 0 !important;
+    padding: 0 !important;
 }
-
-/* Active / visual state: make the heart pop and be red */
-.btn-favorito.favorito-activo i {
-    animation: pop .32s cubic-bezier(.2,.9,.3,1);
-    color: var(--bs-danger, #dc3545);
-    transform: scale(1.15);
+.redes li {
+    display: inline;
+    margin-right: 15px;
 }
-
-/* Also respect when the icon itself gets `text-danger` from JS */
-.btn-favorito i.text-danger {
-    color: var(--bs-danger, #dc3545);
+body.color-dark {
+    background-color: #121212;
+    color: white;
 }
-
-@keyframes pop {
-    0% { transform: scale(1); }
-    50% { transform: scale(2); }
-    100% { transform: scale(1.15); }
+body.color-dark .gray-background {
+    background-color: #333;
 }
-
-/* Temporary favorite message shown inside .card-image-container */
-.fav-message {
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(0,0,0,0.5);
-    color: #e6e6e6;
-    padding: .45rem .75rem;
-    border-radius: .375rem;
-    font-size: 0.9rem;
-    z-index: 50;
-    opacity: 1;
-    transition: opacity .22s ease, transform .22s cubic-bezier(.2,.9,.3,1);
-    pointer-events: none;
+body.color-dark .navbar {
+    background-color: #333 !important;
+    border-color: #555 !important;
 }
-.fav-message.fade-out {
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(.96);
+body.color-dark .navbar-brand,
+body.color-dark .nav-link {
+    color: white !important;
+}
+body.color-dark .btn-outline-secondary {
+    border-color: white;
+    color: white;
+}
+body.color-dark .btn-outline-secondary:hover {
+    background-color: white;
+    color: black;
 }
